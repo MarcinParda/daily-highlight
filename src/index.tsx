@@ -9,6 +9,5 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <App />
-    test husky
   </React.StrictMode>
 );
