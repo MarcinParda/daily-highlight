@@ -23,7 +23,7 @@
     },
     "ecmaVersion": "latest",
     "sourceType": "module",
-    "project": "./tsconfig.json"
+    "project": ["./tsconfig.json", "./tailwind.config.js"]
   },
   "plugins": ["react", "import", "@typescript-eslint", "prettier"],
   "rules": {
