@@ -1,7 +1,7 @@
 {
   "name": "daily-highlight",
   "version": "0.1.0",
-  "homepage": "/daily-highlight",
+  "homepage": "https://daily-highligth.web.app/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -27,7 +27,7 @@
     "format": "prettier --write src/**/*.ts{,x}",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x}",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "firebase deploy --only hosting",
     "prepare": "husky install"
   },
   "eslintConfig": {
