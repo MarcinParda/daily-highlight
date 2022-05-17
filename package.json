@@ -76,7 +76,10 @@
     }
   },
   "lint-staged": {
-    "*.{ts,tsx}": "eslint --fix src/",
+    "*.{ts,tsx}": [
+      "eslint --fix src/",
+      "jest --bail --findRelatedTests"
+    ],
     "*.{ts,tsx,json,css,md}": "prettier --write"
   }
 }
